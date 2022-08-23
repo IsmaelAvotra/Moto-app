@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@100;300;400;700&display=swap');
+
+.App {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem 0 3rem;
+}
+
+header .menu {
+  width: 1.3rem;
+  height: 0.9rem;
+  cursor: pointer;
+}
+
+header p {
+  display: flex;
+  gap: 0.6rem;
+  color: #ffffff;
+  font-size: 0.7rem;
+}
+
+header .inter {
+  width: 0.8rem;
+  height: 0.7rem;
+}
+
+.content-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-logo .logo {
+  width: 4rem;
+}
+
+.content-logo .monster {
+  width: 25%;
+  margin: 1.5rem 0;
+}
+
+.numberDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberDiv img {
+  width: 75%;
+}
+
+.next-prev {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0 3rem;
+}
+
+.next-prev img {
+  width: 5%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.container {
+  width: 700px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.informations {
+  width: 10rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.informations p {
+  font-size: 0.8rem;
+  color: #181818;
+  margin-bottom: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.informations strong {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  display: inline-block;
+  position: absolute;
+  bottom: 3rem;
+  left: 35%;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  margin-left: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #df1f26;
+  filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.6));
+}
+
+button.active {
+  border: 2px solid #ffffff;
+}
+
+.black {
+  background-color: #141414;
+  filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.6));
+}
+
+.white {
+  background-color: grey;
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+}
+
+.image {
+  position: absolute;
+  top: -16rem;
+  left: 3rem;
+  z-index: 0;
+}
+
+.image img {
+  width: 100%;
+}
+
+.vibes {
+  width: 15rem;
+  position: absolute;
+  right: 0rem;
+  bottom: 3.5rem;
+  padding: 1rem;
+  font-family: 'Italianno', cursive;
+  color: #707070;
+}
+
+.vibes span {
+  font-size: 2rem;
+}
+
+.vibes p {
+  font-size: 2rem;
+  margin-left: 5rem;
+}
